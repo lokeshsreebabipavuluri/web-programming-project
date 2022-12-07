@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 14px;
+}
+
+body {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+:root {
+  --primary-color: #ef4444;
+  --secondary-color: #10b981;
+  --black-color: #18181b;
+  --white-color: #f1f5f9;
+  --bg-color: #e0f2fe;
+}
+
+.hide {
+  display: none;
+}
+
+.comment {
+  margin-bottom: 14px;
+  border: 1px solid;
+  border-color: var(--black-color);
+  padding: 6px;
+}
+.user {
+  font-size: 12px;
+  color: var(--black-color);
+  font-style: italic;
+}
